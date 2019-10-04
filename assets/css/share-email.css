@@ -1,0 +1,46 @@
+.button-share {
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: white;
+    background-color: #0073ae;
+    border-color: #0073ae;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    margin: 1rem auto 0 !important;
+    opacity: .9;
+    padding: .3rem .9rem;
+    -webkit-transition: opacity .25s ease-in, color .25s ease-in, -webkit-box-shadow .25s ease-in;
+    transition: opacity .25s ease-in, color .25s ease-in, -webkit-box-shadow .25s ease-in;
+    transition: opacity .25s ease-in, color .25s ease-in, box-shadow .25s ease-in;
+    transition: opacity .25s ease-in, color .25s ease-in, box-shadow .25s ease-in, -webkit-box-shadow .25s ease-in;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.share_wrapper{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.share-message{
+    padding: 1rem;
+    color: #28a745;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+@media (min-width: 792px) {
+    .share-message {
+        margin-left: -2rem;
+    }
+}

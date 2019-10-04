@@ -1,0 +1,19 @@
+{
+    "name": "oscar/os-share-email",
+    "description": "Wp Plugin to Share page or post in email to friend",
+    "type": "wp-plugin",
+    "authors": [
+        {
+            "name": "Oscar Sánchez",
+            "email": "oscarsan1986@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.11",
+        "swiftmailer/swiftmailer": "^6.2"
+    },
+
+    "autoload": {
+        "psr-4": {"OsShareEmail\\": "src/"}
+    }
+}

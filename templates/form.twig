@@ -1,0 +1,12 @@
+<div class="share_wrapper">
+    <h3>Enviar promoción a un amigo</h3>
+
+    <form id="share_form" class="form-share js-share_form" action="#" method="post">
+        <label for="email">Email</label>
+        <input type="hidden" name="action" value="send_friend"/>
+        <input type="hidden" name="post" value="{{id_post}}">
+        <input  class="form-share__input js-input-mail" type="email" name="email" required>
+        <button class="button-share" type="submit"> Enviar </button>
+    </form>
+    <div class="share-message js-share_message"></div>
+</div>
