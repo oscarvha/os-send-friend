@@ -47,10 +47,6 @@ function show_send_to_friend_form() {
     $idPost = get_the_ID();
     $post = get_post($idPost);
 
-    if(!$post->show_share) {
-        return false;
-    }
-
     $templating  = new Template();
     $templating->render('form.twig',['id_post'=>  $idPost]);
 }
