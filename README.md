@@ -16,6 +16,7 @@ Configure FROM, TO and Subject in SendToFriendMailer.php
 
 - Add variables SMTP, FROM from Configuration Page.
 - Add Language type in Email.
+- Add Recaptcha
 - Option for selection send email with Swift Mailer module or normal send wp
 - Translations To Twig Templates.
 - Buttón Delete Cache Templates Plugin.
