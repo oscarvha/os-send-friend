@@ -12,7 +12,7 @@ Add To template Page or Blog
 Configure Email SMTP File in Mailer.php
 Configure FROM, TO and Subject in SendToFriendMailer.php
 
-##Next Versions improvements
+## Next Versions improvements
 
 - Add variables SMTP, FROM from Configuration Page.
 - Add Language type in Email.
